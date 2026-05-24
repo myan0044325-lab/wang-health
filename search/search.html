@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>搜尋結果 — 汪健康</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">🐾 汪健康</div>
+      <ul class="nav-links">
+  <li><a href="../index.html">首頁</a></li>
+  <li><a href="../category/category.html">分類瀏覽</a></li>
+  <li><a href="search.html">搜尋</a></li>
+</ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>關鍵字搜尋</h1>
+
+    <!-- 搜尋框 -->
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="輸入症狀或部位，例如：掉毛、耳朵..." />
+      <button id="searchBtn">搜尋</button>
+    </div>
+
+    <!-- 搜尋結果 -->
+    <div class="search-status" id="searchStatus"></div>
+    <div class="card-grid" id="resultGrid"></div>
+  </main>
+
+  <script src="../js/articles.js"></script>
+  <script src="search.js"></script>
+</body>
+</html>

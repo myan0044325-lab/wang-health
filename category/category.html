@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>分類瀏覽 — 汪健康</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">🐾 汪健康</div>
+      <ul class="nav-links">
+        <li><a href="../index.html">首頁</a></li>
+        <li><a href="category.html">分類瀏覽</a></li>
+        <li><a href="../search/search.html">搜尋</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>健康文章分類</h1>
+    <div class="filter-bar">
+      <button class="filter-btn active" data-tag="全部">全部</button>
+      <button class="filter-btn" data-tag="內部健康">內部健康</button>
+      <button class="filter-btn" data-tag="皮膚外觀">皮膚外觀</button>
+      <button class="filter-btn" data-tag="骨骼關節">骨骼關節</button>
+      <button class="filter-btn" data-tag="情緒行為">情緒行為</button>
+      <button class="filter-btn" data-tag="緊急照護">緊急照護</button>
+    </div>
+    <div class="card-grid" id="cardGrid"></div>
+  </main>
+  <script src="../js/articles.js"></script>
+  <script src="category.js"></script>
+</body>
+</html>
